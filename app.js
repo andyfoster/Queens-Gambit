@@ -111,5 +111,5 @@ io.on('connection', function(socket){
 });
 
 http.listen(portnumber, function(){
-  console.log('listening on *:8080');
+  console.log('listening on *:' + portnumber);
 });
